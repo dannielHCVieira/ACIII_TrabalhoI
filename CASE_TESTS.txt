@@ -1,0 +1,20 @@
+- No Cache: 
+    - 3 variaveis
+
+- Cache: 
+    - Tam. Memoria Principal - 256
+    - Tam. Linhas -> 1, 4 , 16 , 64 , 256
+    - Tam. Cache -> 1024 (1 KB), 512, 256, 64, 32
+
+    - Associatividade -> 1, 2, 4, 8
+    - Politica de escrita -> WriteThrough, WriteBack
+    - Algoritmo de substituição -> FIFO, LRU
+
+    - Niveis: 1, 2, 3, 4 (cada um cenario padrão)
+
+GRAFICOS:
+    1. Block Size (4, 16, 64, 256)
+    2. Associatividade (1/n [1], 1/4 [65536], 1/2 [131072], 1/1[262144] )
+    3. Politica de escrita (WriteThrough, WriteBack)
+    4. Algoritmo de substituição (FIFO, LRU)
+
