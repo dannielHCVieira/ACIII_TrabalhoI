@@ -18,3 +18,23 @@ GRAFICOS:
     3. Politica de escrita (WriteThrough, WriteBack)
     4. Algoritmo de substituição (FIFO, LRU)
 
+2
+4
+16
+32
+
+64 128 256 512 1024
+
+1024 
+
+30 -> 150
+
+
+
+1 24
+2 40
+2 542
+2 2
+1 796
+2 923
+1 90

@@ -14,8 +14,8 @@
 		<wordSize>4</wordSize>
 	</CPU>
 	<MainMemory>
-		<blockSize>1</blockSize>
-		<memorySize>16</memorySize>
+		<blockSize>2</blockSize>
+		<memorySize>256</memorySize>
 		<ciclesPerAccessRead>1</ciclesPerAccessRead>
 		<ciclesPerAccessWrite>2</ciclesPerAccessWrite>
 		<timeCicle>10</timeCicle>
@@ -23,11 +23,11 @@
     <Cache>
 		<cacheType>Unified</cacheType>
 		<unifiedCache>
-			<lineSize>1</lineSize>
+			<lineSize>2</lineSize>
 			<ciclesPerAccessRead>1</ciclesPerAccessRead>
 			<ciclesPerAccessWrite>2</ciclesPerAccessWrite>
 			<timeCicle>10</timeCicle>
-			<memorySize>2</memorySize>
+			<memorySize>32</memorySize>
 			<associativityLevel>1</associativityLevel>
 			<writePolicy>WriteThrough</writePolicy>
 			<replacementAlgorithm>LRU</replacementAlgorithm>
